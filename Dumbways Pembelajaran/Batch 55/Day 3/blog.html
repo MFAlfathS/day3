@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Personal Web</title>
+        <link href="./Asset/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-left">
+            <ul>
+                <img src="./Asset/dumbways_id_logo.png" width="50px">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="active">
+                    <a href="./blog.html">Blog</a>
+                </li>
+            </ul>
+            </div>
+            
+            <div class="nav-right">
+                <a href="./Contactform.html">Contact Me</a>
+            </div>
+        </nav>
+        <form>
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="content">Content</label>
+                <textarea name="conten" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="input-image"></label>
+                <input type="file" id="input-image">
+            </div>
+            <button onclick="addProject(event)">submit</button>
+        </form>
+    
+
+        <script src="./Asset/js/blog.js" rel="stylesheet"></script>
+
+</html>
